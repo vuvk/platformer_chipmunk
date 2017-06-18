@@ -1,9 +1,9 @@
-# platformer_chipmunk
+# Lunarians
 Platform game with chipmunk physics
 
-Written in [pureC].
+Written in pureC.
 
-[Used libraries]:
+Used libraries:
 libsdl2
 libsdl2-image
 libsdl2-mixer
