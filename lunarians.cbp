@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="lunarians" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/lunarians" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/lunarians" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O3" />
+					<Add option="-DNDEBUG" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c99" />
+			<Add directory="include" />
+		</Compiler>
+		<Linker>
+			<Add option="-lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_mixer -llibxml2 -lchipmunk" />
+			<Add directory="lib" />
+		</Linker>
+		<Unit filename="additions.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="additions.h" />
+		<Unit filename="creature.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="creature.h" />
+		<Unit filename="defines.h" />
+		<Unit filename="engine.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="engine.h" />
+		<Unit filename="include/SDL2/SDL.h" />
+		<Unit filename="include/SDL2/SDL_assert.h" />
+		<Unit filename="include/SDL2/SDL_atomic.h" />
+		<Unit filename="include/SDL2/SDL_audio.h" />
+		<Unit filename="include/SDL2/SDL_bits.h" />
+		<Unit filename="include/SDL2/SDL_blendmode.h" />
+		<Unit filename="include/SDL2/SDL_clipboard.h" />
+		<Unit filename="include/SDL2/SDL_config.h" />
+		<Unit filename="include/SDL2/SDL_cpuinfo.h" />
+		<Unit filename="include/SDL2/SDL_egl.h" />
+		<Unit filename="include/SDL2/SDL_endian.h" />
+		<Unit filename="include/SDL2/SDL_error.h" />
+		<Unit filename="include/SDL2/SDL_events.h" />
+		<Unit filename="include/SDL2/SDL_filesystem.h" />
+		<Unit filename="include/SDL2/SDL_gamecontroller.h" />
+		<Unit filename="include/SDL2/SDL_gesture.h" />
+		<Unit filename="include/SDL2/SDL_haptic.h" />
+		<Unit filename="include/SDL2/SDL_hints.h" />
+		<Unit filename="include/SDL2/SDL_image.h" />
+		<Unit filename="include/SDL2/SDL_joystick.h" />
+		<Unit filename="include/SDL2/SDL_keyboard.h" />
+		<Unit filename="include/SDL2/SDL_keycode.h" />
+		<Unit filename="include/SDL2/SDL_loadso.h" />
+		<Unit filename="include/SDL2/SDL_log.h" />
+		<Unit filename="include/SDL2/SDL_main.h" />
+		<Unit filename="include/SDL2/SDL_messagebox.h" />
+		<Unit filename="include/SDL2/SDL_mixer.h" />
+		<Unit filename="include/SDL2/SDL_mouse.h" />
+		<Unit filename="include/SDL2/SDL_mutex.h" />
+		<Unit filename="include/SDL2/SDL_name.h" />
+		<Unit filename="include/SDL2/SDL_opengl.h" />
+		<Unit filename="include/SDL2/SDL_opengl_glext.h" />
+		<Unit filename="include/SDL2/SDL_opengles.h" />
+		<Unit filename="include/SDL2/SDL_opengles2.h" />
+		<Unit filename="include/SDL2/SDL_opengles2_gl2.h" />
+		<Unit filename="include/SDL2/SDL_opengles2_gl2ext.h" />
+		<Unit filename="include/SDL2/SDL_opengles2_gl2platform.h" />
+		<Unit filename="include/SDL2/SDL_opengles2_khrplatform.h" />
+		<Unit filename="include/SDL2/SDL_pixels.h" />
+		<Unit filename="include/SDL2/SDL_platform.h" />
+		<Unit filename="include/SDL2/SDL_power.h" />
+		<Unit filename="include/SDL2/SDL_quit.h" />
+		<Unit filename="include/SDL2/SDL_rect.h" />
+		<Unit filename="include/SDL2/SDL_render.h" />
+		<Unit filename="include/SDL2/SDL_revision.h" />
+		<Unit filename="include/SDL2/SDL_rwops.h" />
+		<Unit filename="include/SDL2/SDL_scancode.h" />
+		<Unit filename="include/SDL2/SDL_shape.h" />
+		<Unit filename="include/SDL2/SDL_stdinc.h" />
+		<Unit filename="include/SDL2/SDL_surface.h" />
+		<Unit filename="include/SDL2/SDL_system.h" />
+		<Unit filename="include/SDL2/SDL_syswm.h" />
+		<Unit filename="include/SDL2/SDL_test.h" />
+		<Unit filename="include/SDL2/SDL_test_assert.h" />
+		<Unit filename="include/SDL2/SDL_test_common.h" />
+		<Unit filename="include/SDL2/SDL_test_compare.h" />
+		<Unit filename="include/SDL2/SDL_test_crc32.h" />
+		<Unit filename="include/SDL2/SDL_test_font.h" />
+		<Unit filename="include/SDL2/SDL_test_fuzzer.h" />
+		<Unit filename="include/SDL2/SDL_test_harness.h" />
+		<Unit filename="include/SDL2/SDL_test_images.h" />
+		<Unit filename="include/SDL2/SDL_test_log.h" />
+		<Unit filename="include/SDL2/SDL_test_md5.h" />
+		<Unit filename="include/SDL2/SDL_test_random.h" />
+		<Unit filename="include/SDL2/SDL_thread.h" />
+		<Unit filename="include/SDL2/SDL_timer.h" />
+		<Unit filename="include/SDL2/SDL_touch.h" />
+		<Unit filename="include/SDL2/SDL_types.h" />
+		<Unit filename="include/SDL2/SDL_version.h" />
+		<Unit filename="include/SDL2/SDL_video.h" />
+		<Unit filename="include/SDL2/begin_code.h" />
+		<Unit filename="include/SDL2/close_code.h" />
+		<Unit filename="include/chipmunk/chipmunk_private.h" />
+		<Unit filename="level.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="level.h" />
+		<Unit filename="list.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="list.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="physBody.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="physBody.h" />
+		<Unit filename="player.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="player.h" />
+		<Unit filename="sound.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sound.h" />
+		<Unit filename="texture.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="texture.h" />
+		<Unit filename="tileObject.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="tileObject.h" />
+		<Unit filename="world.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="world.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

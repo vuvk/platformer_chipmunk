@@ -1,0 +1,2137 @@
+# depslib dependency file v1.0
+1496397336 source:d:\progs\src\c\lunarians\additions.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"SDL2/SDL.h"
+	"additions.h"
+
+1495117472 .h"
+
+1496390366 d:\progs\src\c\lunarians\additions.h
+	"defines.h"
+
+1496115525 "
+
+1496394890 d:\progs\src\c\lunarians\defines.h
+	"chipmunk/chipmunk_private.h"
+
+1496125168 chipmunk_private.h"
+
+1496393348 source:d:\progs\src\c\lunarians\engine.c
+	<time.h>
+	"engine.h"
+	"list.h"
+	"sound.h"
+	"texture.h"
+	"tileObject.h"
+	"level.h"
+	"physBody.h"
+	"creature.h"
+	"player.h"
+
+1496161833 
+
+1496161531 d:\progs\src\c\lunarians\engine.h
+	<stdio.h>
+	<stdlib.h>
+	"SDL2/SDL.h"
+	"SDL2/SDL_mixer.h"
+	"SDL2/SDL_image.h"
+	"chipmunk/chipmunk_private.h"
+	"defines.h"
+
+1476935894 d:\progs\src\c\lunarians\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451800374 e.h"
+
+1476935894 d:\progs\src\c\lunarians\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 d:\progs\src\c\lunarians\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<sal.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1476935894 d:\progs\src\c\lunarians\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1476935894 orm.h"
+
+1476935894 d:\progs\src\c\lunarians\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 d:\progs\src\c\lunarians\include\sdl2\begin_code.h
+
+1476935894 d:\progs\src\c\lunarians\include\sdl2\close_code.h
+
+1476935894 d:\progs\src\c\lunarians\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1476935894 d:\progs\src\c\lunarians\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1476935894 d:\progs\src\c\lunarians\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 d:\progs\src\c\lunarians\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 d:\progs\src\c\lunarians\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 d:\progs\src\c\lunarians\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 d:\progs\src\c\lunarians\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1476935894 d:\progs\src\c\lunarians\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 d:\progs\src\c\lunarians\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 d:\progs\src\c\lunarians\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mmintrin.h>
+	<mm3dnow.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 d:\progs\src\c\lunarians\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 d:\progs\src\c\lunarians\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 d:\progs\src\c\lunarians\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 d:\progs\src\c\lunarians\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 d:\progs\src\c\lunarians\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 d:\progs\src\c\lunarians\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 d:\progs\src\c\lunarians\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 d:\progs\src\c\lunarians\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1476935894 ode.h"
+
+1476935894 d:\progs\src\c\lunarians\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1476935894 c.h"
+
+1476935894 d:\progs\src\c\lunarians\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 d:\progs\src\c\lunarians\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 d:\progs\src\c\lunarians\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 d:\progs\src\c\lunarians\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1476935894 d:\progs\src\c\lunarians\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 d:\progs\src\c\lunarians\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 d:\progs\src\c\lunarians\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 d:\progs\src\c\lunarians\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 d:\progs\src\c\lunarians\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 d:\progs\src\c\lunarians\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 d:\progs\src\c\lunarians\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 d:\progs\src\c\lunarians\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 d:\progs\src\c\lunarians\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 d:\progs\src\c\lunarians\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 d:\progs\src\c\lunarians\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 d:\progs\src\c\lunarians\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 d:\progs\src\c\lunarians\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451801791 d:\progs\src\c\lunarians\include\sdl2\sdl_mixer.h
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451800374 d:\progs\src\c\lunarians\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1495786381 d:\progs\src\c\lunarians\include\chipmunk\chipmunk_private.h
+	"chipmunk/chipmunk.h"
+	"chipmunk/chipmunk_structs.h"
+
+1495786381 chipmunk_structs.h"
+
+1495786381 d:\progs\src\c\lunarians\include\chipmunk\chipmunk.h
+	<stdlib.h>
+	<math.h>
+	<malloc.h>
+	<alloca.h>
+	"chipmunk_types.h"
+	"cpVect.h"
+	"cpBB.h"
+	"cpTransform.h"
+	"cpSpatialIndex.h"
+	"cpArbiter.h"
+	"cpBody.h"
+	"cpShape.h"
+	"cpPolyShape.h"
+	"cpConstraint.h"
+	"cpSpace.h"
+
+1496131105 d:\progs\src\c\lunarians\include\chipmunk\chipmunk_types.h
+	<stdint.h>
+	<float.h>
+	<math.h>
+	"TargetConditionals.h"
+	<CoreGraphics/CGGeometry.h>
+	<CoreGraphics/CGAffineTransform.h>
+	<ApplicationServices/ApplicationServices.h>
+
+1496131105 onServices/ApplicationServices.h>
+
+1495786382 d:\progs\src\c\lunarians\include\chipmunk\cpvect.h
+	"chipmunk_types.h"
+
+1495786382 types.h"
+
+1495786381 d:\progs\src\c\lunarians\include\chipmunk\cpbb.h
+	"chipmunk_types.h"
+	"cpVect.h"
+
+1495786382 d:\progs\src\c\lunarians\include\chipmunk\cptransform.h
+	"chipmunk_types.h"
+	"cpVect.h"
+	"cpBB.h"
+
+1496402409 
+
+1495786382 d:\progs\src\c\lunarians\include\chipmunk\cpspatialindex.h
+
+1495786381 d:\progs\src\c\lunarians\include\chipmunk\cparbiter.h
+
+1495786381 d:\progs\src\c\lunarians\include\chipmunk\cpbody.h
+
+1495786382 d:\progs\src\c\lunarians\include\chipmunk\cpshape.h
+
+1495786381 d:\progs\src\c\lunarians\include\chipmunk\cppolyshape.h
+
+1495786381 d:\progs\src\c\lunarians\include\chipmunk\cpconstraint.h
+	"cpPinJoint.h"
+	"cpSlideJoint.h"
+	"cpPivotJoint.h"
+	"cpGrooveJoint.h"
+	"cpDampedSpring.h"
+	"cpDampedRotarySpring.h"
+	"cpRotaryLimitJoint.h"
+	"cpRatchetJoint.h"
+	"cpGearJoint.h"
+	"cpSimpleMotor.h"
+
+1495786381 otor.h"
+
+1495786381 d:\progs\src\c\lunarians\include\chipmunk\cppinjoint.h
+
+1495786382 d:\progs\src\c\lunarians\include\chipmunk\cpslidejoint.h
+
+1495786381 d:\progs\src\c\lunarians\include\chipmunk\cppivotjoint.h
+
+1495786381 d:\progs\src\c\lunarians\include\chipmunk\cpgroovejoint.h
+
+1495786381 d:\progs\src\c\lunarians\include\chipmunk\cpdampedspring.h
+
+1495786381 d:\progs\src\c\lunarians\include\chipmunk\cpdampedrotaryspring.h
+
+1495786381 d:\progs\src\c\lunarians\include\chipmunk\cprotarylimitjoint.h
+
+1495786381 d:\progs\src\c\lunarians\include\chipmunk\cpratchetjoint.h
+
+1495786381 d:\progs\src\c\lunarians\include\chipmunk\cpgearjoint.h
+
+1495786382 d:\progs\src\c\lunarians\include\chipmunk\cpsimplemotor.h
+
+1495786382 d:\progs\src\c\lunarians\include\chipmunk\cpspace.h
+
+1495786381 d:\progs\src\c\lunarians\include\chipmunk\chipmunk_structs.h
+	"chipmunk/chipmunk.h"
+
+1495786381 chipmunk.h"
+
+1496057705 d:\progs\src\c\lunarians\list.h
+	"defines.h"
+
+1496057722 d:\progs\src\c\lunarians\sound.h
+	"SDL2/SDL_mixer.h"
+	"defines.h"
+
+1496393010 d:\progs\src\c\lunarians\texture.h
+	"SDL2/SDL.h"
+	"defines.h"
+	"engine.h"
+
+1495602948 source:d:\progs\src\c\lunarians\list.c
+	<stdio.h>
+	<stdlib.h>
+	"list.h"
+
+1495117472 source:d:\progs\src\c\lunarians\sound.c
+	<stdio.h>
+	"sound.h"
+	"additions.h"
+
+1496394015 source:d:\progs\src\c\lunarians\texture.c
+	<stdio.h>
+	"additions.h"
+	"texture.h"
+
+1496402441 source:d:\progs\src\c\lunarians\main.c
+	<stdio.h>
+	<stdlib.h>
+	"SDL2/SDL.h"
+	"chipmunk/chipmunk_private.h"
+	"defines.h"
+	"engine.h"
+	"world.h"
+	"level.h"
+	"texture.h"
+	"tileObject.h"
+	"creature.h"
+	"player.h"
+
+1496402388 source:d:\progs\src\c\lunarians\level.c
+	<stdlib.h>
+	<string.h>
+	"libxml/parser.h"
+	"additions.h"
+	"texture.h"
+	"engine.h"
+	"world.h"
+	"level.h"
+	"physBody.h"
+	"tileObject.h"
+	"creature.h"
+	"player.h"
+
+1494999695 d:\progs\src\c\lunarians\include\libxml\parser.h
+	<stdarg.h>
+	<libxml/xmlversion.h>
+	<libxml/tree.h>
+	<libxml/dict.h>
+	<libxml/hash.h>
+	<libxml/valid.h>
+	<libxml/entities.h>
+	<libxml/xmlerror.h>
+	<libxml/xmlstring.h>
+	<libxml/encoding.h>
+	<libxml/xmlIO.h>
+	<libxml/globals.h>
+
+1494999695 obals.h>
+
+1494999696 d:\progs\src\c\lunarians\include\libxml\xmlversion.h
+	<libxml/xmlexports.h>
+	<ansidecl.h>
+
+1494999696 h>
+
+1494999696 d:\progs\src\c\lunarians\include\libxml\xmlexports.h
+
+1494999696 d:\progs\src\c\lunarians\include\libxml\tree.h
+	<stdio.h>
+	<libxml/xmlversion.h>
+	<libxml/xmlstring.h>
+	<libxml/xmlregexp.h>
+	<libxml/xmlmemory.h>
+
+1494999696 lmemory.h>
+
+1494999696 d:\progs\src\c\lunarians\include\libxml\xmlstring.h
+	<stdarg.h>
+	<libxml/xmlversion.h>
+
+1494999695 lversion.h>
+
+1494999696 d:\progs\src\c\lunarians\include\libxml\xmlregexp.h
+	<libxml/xmlversion.h>
+	<libxml/tree.h>
+	<libxml/dict.h>
+
+1494999695 ct.h>
+
+1494999695 d:\progs\src\c\lunarians\include\libxml\dict.h
+	<libxml/xmlversion.h>
+	<libxml/tree.h>
+
+1494999695 ee.h>
+
+1494999696 d:\progs\src\c\lunarians\include\libxml\xmlmemory.h
+	<stdio.h>
+	<libxml/xmlversion.h>
+	<libxml/threads.h>
+	<libxml/globals.h>
+
+1494999695 d:\progs\src\c\lunarians\include\libxml\threads.h
+	<libxml/xmlversion.h>
+	<libxml/globals.h>
+
+1494999695 d:\progs\src\c\lunarians\include\libxml\globals.h
+	<libxml/xmlversion.h>
+	<libxml/parser.h>
+	<libxml/xmlerror.h>
+	<libxml/SAX.h>
+	<libxml/SAX2.h>
+	<libxml/xmlmemory.h>
+	<libxml/threads.h>
+
+1494999695 reads.h>
+
+1494999696 d:\progs\src\c\lunarians\include\libxml\xmlerror.h
+	<libxml/parser.h>
+
+1494999696 rser.h>
+
+1494999695 d:\progs\src\c\lunarians\include\libxml\sax.h
+	<stdio.h>
+	<stdlib.h>
+	<libxml/xmlversion.h>
+	<libxml/parser.h>
+	<libxml/xlink.h>
+
+1494999695 ink.h>
+
+1494999696 d:\progs\src\c\lunarians\include\libxml\xlink.h
+	<libxml/xmlversion.h>
+	<libxml/tree.h>
+
+1494999695 d:\progs\src\c\lunarians\include\libxml\sax2.h
+	<stdio.h>
+	<stdlib.h>
+	<libxml/xmlversion.h>
+	<libxml/parser.h>
+	<libxml/xlink.h>
+
+1494999695 d:\progs\src\c\lunarians\include\libxml\hash.h
+	<libxml/xmlversion.h>
+	<libxml/parser.h>
+	<libxml/dict.h>
+
+1494999696 d:\progs\src\c\lunarians\include\libxml\valid.h
+	<libxml/xmlversion.h>
+	<libxml/xmlerror.h>
+	<libxml/tree.h>
+	<libxml/list.h>
+	<libxml/xmlautomata.h>
+	<libxml/xmlregexp.h>
+
+1494999696 lregexp.h>
+
+1494999695 d:\progs\src\c\lunarians\include\libxml\list.h
+	<libxml/xmlversion.h>
+
+1494999696 d:\progs\src\c\lunarians\include\libxml\xmlautomata.h
+	<libxml/xmlversion.h>
+	<libxml/tree.h>
+	<libxml/xmlregexp.h>
+
+1494999695 d:\progs\src\c\lunarians\include\libxml\entities.h
+	<libxml/xmlversion.h>
+	<libxml/tree.h>
+
+1494999695 d:\progs\src\c\lunarians\include\libxml\encoding.h
+	<libxml/xmlversion.h>
+	<iconv.h>
+	<unicode/ucnv.h>
+	<libxml/tree.h>
+
+1495007287 d:\progs\src\c\lunarians\include\iconv.h
+	"iconv.h"
+	<stddef.h>
+	<errno.h>
+
+1494999696 d:\progs\src\c\lunarians\include\libxml\xmlio.h
+	<stdio.h>
+	<libxml/xmlversion.h>
+	<libxml/globals.h>
+	<libxml/tree.h>
+	<libxml/parser.h>
+	<libxml/encoding.h>
+
+1494999696 coding.h>
+
+1496402559 d:\progs\src\c\lunarians\level.h
+	"chipmunk/chipmunk_private.h"
+	"defines.h"
+	"list.h"
+	"tileObject.h"
+
+1496392939 t.h"
+
+1496293047 source:d:\progs\src\c\lunarians\world.c
+	"defines.h"
+	"world.h"
+	"physBody.h"
+
+1496143953 h"
+
+1496394400 d:\progs\src\c\lunarians\world.h
+	"chipmunk/chipmunk_private.h"
+
+1496296182 source:d:\progs\src\c\lunarians\physbody.c
+	"physBody.h"
+
+1496294974 d:\progs\src\c\lunarians\physbody.h
+	"chipmunk/chipmunk_private.h"
+	"defines.h"
+
+1496314056 source:d:\progs\src\c\lunarians\creature.c
+	"defines.h"
+	"additions.h"
+	"engine.h"
+	"world.h"
+	"creature.h"
+	"player.h"
+
+1496312688 d:\progs\src\c\lunarians\creature.h
+	"SDL2/SDL.h"
+	"chipmunk/chipmunk_private.h"
+	"list.h"
+	"physBody.h"
+
+1496310742 d:\progs\src\c\lunarians\player.h
+	"creature.h"
+
+1496312657 source:d:\progs\src\c\lunarians\player.c
+	<stdlib.h>
+	"chipmunk/chipmunk_private.h"
+	"additions.h"
+	"defines.h"
+	"texture.h"
+	"sound.h"
+	"level.h"
+	"physBody.h"
+	"player.h"
+
+1496141976 source:b:\mein_docs\programs\c\lunarians\additions.c
+	<stdio.h>
+	<stdlib.h>
+	"SDL2/SDL.h"
+	"additions.h"
+
+1476935894 b:\mein_docs\programs\c\lunarians\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 b:\mein_docs\programs\c\lunarians\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 b:\mein_docs\programs\c\lunarians\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<sal.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1476935894 b:\mein_docs\programs\c\lunarians\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1476935894 b:\mein_docs\programs\c\lunarians\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 b:\mein_docs\programs\c\lunarians\include\sdl2\begin_code.h
+
+1476935894 b:\mein_docs\programs\c\lunarians\include\sdl2\close_code.h
+
+1476935894 b:\mein_docs\programs\c\lunarians\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1476935894 b:\mein_docs\programs\c\lunarians\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1476935894 b:\mein_docs\programs\c\lunarians\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 b:\mein_docs\programs\c\lunarians\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 b:\mein_docs\programs\c\lunarians\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 b:\mein_docs\programs\c\lunarians\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 b:\mein_docs\programs\c\lunarians\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1476935894 b:\mein_docs\programs\c\lunarians\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 b:\mein_docs\programs\c\lunarians\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 b:\mein_docs\programs\c\lunarians\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mmintrin.h>
+	<mm3dnow.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 b:\mein_docs\programs\c\lunarians\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 b:\mein_docs\programs\c\lunarians\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 b:\mein_docs\programs\c\lunarians\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 b:\mein_docs\programs\c\lunarians\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 b:\mein_docs\programs\c\lunarians\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 b:\mein_docs\programs\c\lunarians\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 b:\mein_docs\programs\c\lunarians\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 b:\mein_docs\programs\c\lunarians\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1476935894 b:\mein_docs\programs\c\lunarians\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1476935894 b:\mein_docs\programs\c\lunarians\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 b:\mein_docs\programs\c\lunarians\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 b:\mein_docs\programs\c\lunarians\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 b:\mein_docs\programs\c\lunarians\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1476935894 b:\mein_docs\programs\c\lunarians\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 b:\mein_docs\programs\c\lunarians\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 b:\mein_docs\programs\c\lunarians\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 b:\mein_docs\programs\c\lunarians\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 b:\mein_docs\programs\c\lunarians\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 b:\mein_docs\programs\c\lunarians\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 b:\mein_docs\programs\c\lunarians\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 b:\mein_docs\programs\c\lunarians\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 b:\mein_docs\programs\c\lunarians\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 b:\mein_docs\programs\c\lunarians\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 b:\mein_docs\programs\c\lunarians\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 b:\mein_docs\programs\c\lunarians\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 b:\mein_docs\programs\c\lunarians\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1496141976 b:\mein_docs\programs\c\lunarians\additions.h
+	"defines.h"
+
+1496161854 b:\mein_docs\programs\c\lunarians\defines.h
+	"chipmunk/chipmunk_private.h"
+
+1495786381 b:\mein_docs\programs\c\lunarians\include\chipmunk\chipmunk_private.h
+	"chipmunk/chipmunk.h"
+	"chipmunk/chipmunk_structs.h"
+
+1495786381 b:\mein_docs\programs\c\lunarians\include\chipmunk\chipmunk.h
+	<stdlib.h>
+	<math.h>
+	<malloc.h>
+	<alloca.h>
+	"chipmunk_types.h"
+	"cpVect.h"
+	"cpBB.h"
+	"cpTransform.h"
+	"cpSpatialIndex.h"
+	"cpArbiter.h"
+	"cpBody.h"
+	"cpShape.h"
+	"cpPolyShape.h"
+	"cpConstraint.h"
+	"cpSpace.h"
+
+1496131105 b:\mein_docs\programs\c\lunarians\include\chipmunk\chipmunk_types.h
+	<stdint.h>
+	<float.h>
+	<math.h>
+	"TargetConditionals.h"
+	<CoreGraphics/CGGeometry.h>
+	<CoreGraphics/CGAffineTransform.h>
+	<ApplicationServices/ApplicationServices.h>
+
+1495786382 b:\mein_docs\programs\c\lunarians\include\chipmunk\cpvect.h
+	"chipmunk_types.h"
+
+1495786381 b:\mein_docs\programs\c\lunarians\include\chipmunk\cpbb.h
+	"chipmunk_types.h"
+	"cpVect.h"
+
+1495786382 b:\mein_docs\programs\c\lunarians\include\chipmunk\cptransform.h
+	"chipmunk_types.h"
+	"cpVect.h"
+	"cpBB.h"
+
+1495786382 b:\mein_docs\programs\c\lunarians\include\chipmunk\cpspatialindex.h
+
+1495786381 b:\mein_docs\programs\c\lunarians\include\chipmunk\cparbiter.h
+
+1495786381 b:\mein_docs\programs\c\lunarians\include\chipmunk\cpbody.h
+
+1495786382 b:\mein_docs\programs\c\lunarians\include\chipmunk\cpshape.h
+
+1495786381 b:\mein_docs\programs\c\lunarians\include\chipmunk\cppolyshape.h
+
+1495786381 b:\mein_docs\programs\c\lunarians\include\chipmunk\cpconstraint.h
+	"cpPinJoint.h"
+	"cpSlideJoint.h"
+	"cpPivotJoint.h"
+	"cpGrooveJoint.h"
+	"cpDampedSpring.h"
+	"cpDampedRotarySpring.h"
+	"cpRotaryLimitJoint.h"
+	"cpRatchetJoint.h"
+	"cpGearJoint.h"
+	"cpSimpleMotor.h"
+
+1495786381 b:\mein_docs\programs\c\lunarians\include\chipmunk\cppinjoint.h
+
+1495786382 b:\mein_docs\programs\c\lunarians\include\chipmunk\cpslidejoint.h
+
+1495786381 b:\mein_docs\programs\c\lunarians\include\chipmunk\cppivotjoint.h
+
+1495786381 b:\mein_docs\programs\c\lunarians\include\chipmunk\cpgroovejoint.h
+
+1495786381 b:\mein_docs\programs\c\lunarians\include\chipmunk\cpdampedspring.h
+
+1495786381 b:\mein_docs\programs\c\lunarians\include\chipmunk\cpdampedrotaryspring.h
+
+1495786381 b:\mein_docs\programs\c\lunarians\include\chipmunk\cprotarylimitjoint.h
+
+1495786381 b:\mein_docs\programs\c\lunarians\include\chipmunk\cpratchetjoint.h
+
+1495786381 b:\mein_docs\programs\c\lunarians\include\chipmunk\cpgearjoint.h
+
+1495786382 b:\mein_docs\programs\c\lunarians\include\chipmunk\cpsimplemotor.h
+
+1495786382 b:\mein_docs\programs\c\lunarians\include\chipmunk\cpspace.h
+
+1495786381 b:\mein_docs\programs\c\lunarians\include\chipmunk\chipmunk_structs.h
+	"chipmunk/chipmunk.h"
+
+1496161558 source:b:\mein_docs\programs\c\lunarians\engine.c
+	<time.h>
+	"engine.h"
+	"list.h"
+	"sound.h"
+	"texture.h"
+	"creature.h"
+	"player.h"
+
+1496161531 b:\mein_docs\programs\c\lunarians\engine.h
+	<stdio.h>
+	<stdlib.h>
+	"SDL2/SDL.h"
+	"SDL2/SDL_mixer.h"
+	"SDL2/SDL_image.h"
+	"chipmunk/chipmunk_private.h"
+	"defines.h"
+
+1451801791 b:\mein_docs\programs\c\lunarians\include\sdl2\sdl_mixer.h
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451800374 b:\mein_docs\programs\c\lunarians\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1496057705 b:\mein_docs\programs\c\lunarians\list.h
+	"defines.h"
+
+1496057722 b:\mein_docs\programs\c\lunarians\sound.h
+	"SDL2/SDL_mixer.h"
+	"defines.h"
+
+1496115347 b:\mein_docs\programs\c\lunarians\texture.h
+	"SDL2/SDL.h"
+	"defines.h"
+	"engine.h"
+
+1496123366 b:\mein_docs\programs\c\lunarians\creature.h
+	"SDL2/SDL.h"
+	"chipmunk/chipmunk_private.h"
+	"list.h"
+	"physBody.h"
+
+1496132219 b:\mein_docs\programs\c\lunarians\physbody.h
+	"chipmunk/chipmunk_private.h"
+
+1496124729 b:\mein_docs\programs\c\lunarians\player.h
+	"creature.h"
+
+1496161734 source:b:\mein_docs\programs\c\lunarians\level.c
+	<stdlib.h>
+	<string.h>
+	"libxml/parser.h"
+	"additions.h"
+	"texture.h"
+	"engine.h"
+	"world.h"
+	"level.h"
+	"creature.h"
+	"player.h"
+
+1494999695 b:\mein_docs\programs\c\lunarians\include\libxml\parser.h
+	<stdarg.h>
+	<libxml/xmlversion.h>
+	<libxml/tree.h>
+	<libxml/dict.h>
+	<libxml/hash.h>
+	<libxml/valid.h>
+	<libxml/entities.h>
+	<libxml/xmlerror.h>
+	<libxml/xmlstring.h>
+	<libxml/encoding.h>
+	<libxml/xmlIO.h>
+	<libxml/globals.h>
+
+1494999696 b:\mein_docs\programs\c\lunarians\include\libxml\xmlversion.h
+	<libxml/xmlexports.h>
+	<ansidecl.h>
+
+1494999696 b:\mein_docs\programs\c\lunarians\include\libxml\xmlexports.h
+
+1494999696 b:\mein_docs\programs\c\lunarians\include\libxml\tree.h
+	<stdio.h>
+	<libxml/xmlversion.h>
+	<libxml/xmlstring.h>
+	<libxml/xmlregexp.h>
+	<libxml/xmlmemory.h>
+
+1494999696 b:\mein_docs\programs\c\lunarians\include\libxml\xmlstring.h
+	<stdarg.h>
+	<libxml/xmlversion.h>
+
+1494999696 b:\mein_docs\programs\c\lunarians\include\libxml\xmlregexp.h
+	<libxml/xmlversion.h>
+	<libxml/tree.h>
+	<libxml/dict.h>
+
+1494999695 b:\mein_docs\programs\c\lunarians\include\libxml\dict.h
+	<libxml/xmlversion.h>
+	<libxml/tree.h>
+
+1494999696 b:\mein_docs\programs\c\lunarians\include\libxml\xmlmemory.h
+	<stdio.h>
+	<libxml/xmlversion.h>
+	<libxml/threads.h>
+	<libxml/globals.h>
+
+1494999695 b:\mein_docs\programs\c\lunarians\include\libxml\threads.h
+	<libxml/xmlversion.h>
+	<libxml/globals.h>
+
+1494999695 b:\mein_docs\programs\c\lunarians\include\libxml\globals.h
+	<libxml/xmlversion.h>
+	<libxml/parser.h>
+	<libxml/xmlerror.h>
+	<libxml/SAX.h>
+	<libxml/SAX2.h>
+	<libxml/xmlmemory.h>
+	<libxml/threads.h>
+
+1494999696 b:\mein_docs\programs\c\lunarians\include\libxml\xmlerror.h
+	<libxml/parser.h>
+
+1494999695 b:\mein_docs\programs\c\lunarians\include\libxml\sax.h
+	<stdio.h>
+	<stdlib.h>
+	<libxml/xmlversion.h>
+	<libxml/parser.h>
+	<libxml/xlink.h>
+
+1494999696 b:\mein_docs\programs\c\lunarians\include\libxml\xlink.h
+	<libxml/xmlversion.h>
+	<libxml/tree.h>
+
+1494999695 b:\mein_docs\programs\c\lunarians\include\libxml\sax2.h
+	<stdio.h>
+	<stdlib.h>
+	<libxml/xmlversion.h>
+	<libxml/parser.h>
+	<libxml/xlink.h>
+
+1494999695 b:\mein_docs\programs\c\lunarians\include\libxml\hash.h
+	<libxml/xmlversion.h>
+	<libxml/parser.h>
+	<libxml/dict.h>
+
+1494999696 b:\mein_docs\programs\c\lunarians\include\libxml\valid.h
+	<libxml/xmlversion.h>
+	<libxml/xmlerror.h>
+	<libxml/tree.h>
+	<libxml/list.h>
+	<libxml/xmlautomata.h>
+	<libxml/xmlregexp.h>
+
+1494999695 b:\mein_docs\programs\c\lunarians\include\libxml\list.h
+	<libxml/xmlversion.h>
+
+1494999696 b:\mein_docs\programs\c\lunarians\include\libxml\xmlautomata.h
+	<libxml/xmlversion.h>
+	<libxml/tree.h>
+	<libxml/xmlregexp.h>
+
+1494999695 b:\mein_docs\programs\c\lunarians\include\libxml\entities.h
+	<libxml/xmlversion.h>
+	<libxml/tree.h>
+
+1494999695 b:\mein_docs\programs\c\lunarians\include\libxml\encoding.h
+	<libxml/xmlversion.h>
+	<iconv.h>
+	<unicode/ucnv.h>
+	<libxml/tree.h>
+
+1495007287 b:\mein_docs\programs\c\lunarians\include\iconv.h
+	"iconv.h"
+	<stddef.h>
+	<errno.h>
+
+1494999696 b:\mein_docs\programs\c\lunarians\include\libxml\xmlio.h
+	<stdio.h>
+	<libxml/xmlversion.h>
+	<libxml/globals.h>
+	<libxml/tree.h>
+	<libxml/parser.h>
+	<libxml/encoding.h>
+
+1496125168 b:\mein_docs\programs\c\lunarians\world.h
+	"chipmunk/chipmunk_private.h"
+
+1496141456 b:\mein_docs\programs\c\lunarians\level.h
+	"chipmunk/chipmunk_private.h"
+	"defines.h"
+
+1495602948 source:b:\mein_docs\programs\c\lunarians\list.c
+	<stdio.h>
+	<stdlib.h>
+	"list.h"
+
+1496153458 source:b:\mein_docs\programs\c\lunarians\main.c
+	<stdio.h>
+	<stdlib.h>
+	"SDL2/SDL.h"
+	"chipmunk/chipmunk_private.h"
+	"defines.h"
+	"engine.h"
+	"world.h"
+	"level.h"
+	"texture.h"
+	"creature.h"
+	"player.h"
+
+1496143953 source:b:\mein_docs\programs\c\lunarians\physbody.c
+	"physBody.h"
+
+1496143854 source:b:\mein_docs\programs\c\lunarians\player.c
+	<stdlib.h>
+	"chipmunk/chipmunk_private.h"
+	"defines.h"
+	"texture.h"
+	"sound.h"
+	"level.h"
+	"physBody.h"
+	"player.h"
+
+1495117472 source:b:\mein_docs\programs\c\lunarians\sound.c
+	<stdio.h>
+	"sound.h"
+	"additions.h"
+
+1496115525 source:b:\mein_docs\programs\c\lunarians\texture.c
+	<stdio.h>
+	"additions.h"
+	"texture.h"
+
+1496142879 source:b:\mein_docs\programs\c\lunarians\world.c
+	"defines.h"
+	"world.h"
+
+1496161833 source:b:\mein_docs\programs\c\lunarians\creature.c
+	"defines.h"
+	"additions.h"
+	"engine.h"
+	"world.h"
+	"creature.h"
+	"player.h"
+
+1496314234 d:\progs\src\c\lunarians\backgroundobject.h
+	"SDL2/SDL.h"
+	"SDL2/SDL_image.h"
+	"chipmunk/chipmunk_private.h"
+	"defines.h"
+	"list.h"
+
+1496392939 source:d:\progs\src\c\lunarians\backgroundobject.c
+	"engine.h"
+	"tileObject.h"
+
+1496402409 d:\progs\src\c\lunarians\tileobject.h
+	"SDL2/SDL.h"
+	"SDL2/SDL_image.h"
+	"chipmunk/chipmunk_private.h"
+	"defines.h"
+	"list.h"
+
+1496402409 source:d:\progs\src\c\lunarians\tileobject.c
+	"additions.h"
+	"engine.h"
+	"texture.h"
+	"tileObject.h"
+	"level.h"
+
+1496397336 source:/home/vuvk/my_progs/c/platformer_chipmunk/additions.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"SDL2/SDL.h"
+	"additions.h"
+
+1476935894 /home/vuvk/my_progs/c/platformer_chipmunk/include/SDL2/SDL.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 /home/vuvk/my_progs/c/platformer_chipmunk/include/SDL2/SDL_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 /home/vuvk/my_progs/c/platformer_chipmunk/include/SDL2/SDL_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<sal.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1476935894 /home/vuvk/my_progs/c/platformer_chipmunk/include/SDL2/SDL_config.h
+	"SDL_platform.h"
+
+1476935894 /home/vuvk/my_progs/c/platformer_chipmunk/include/SDL2/SDL_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 /home/vuvk/my_progs/c/platformer_chipmunk/include/SDL2/begin_code.h
+
+1476935894 /home/vuvk/my_progs/c/platformer_chipmunk/include/SDL2/close_code.h
+
+1476935894 /home/vuvk/my_progs/c/platformer_chipmunk/include/SDL2/SDL_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1476935894 /home/vuvk/my_progs/c/platformer_chipmunk/include/SDL2/SDL_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1476935894 /home/vuvk/my_progs/c/platformer_chipmunk/include/SDL2/SDL_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 /home/vuvk/my_progs/c/platformer_chipmunk/include/SDL2/SDL_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 /home/vuvk/my_progs/c/platformer_chipmunk/include/SDL2/SDL_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 /home/vuvk/my_progs/c/platformer_chipmunk/include/SDL2/SDL_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 /home/vuvk/my_progs/c/platformer_chipmunk/include/SDL2/SDL_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1476935894 /home/vuvk/my_progs/c/platformer_chipmunk/include/SDL2/SDL_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 /home/vuvk/my_progs/c/platformer_chipmunk/include/SDL2/SDL_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 /home/vuvk/my_progs/c/platformer_chipmunk/include/SDL2/SDL_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mmintrin.h>
+	<mm3dnow.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 /home/vuvk/my_progs/c/platformer_chipmunk/include/SDL2/SDL_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 /home/vuvk/my_progs/c/platformer_chipmunk/include/SDL2/SDL_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 /home/vuvk/my_progs/c/platformer_chipmunk/include/SDL2/SDL_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 /home/vuvk/my_progs/c/platformer_chipmunk/include/SDL2/SDL_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 /home/vuvk/my_progs/c/platformer_chipmunk/include/SDL2/SDL_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 /home/vuvk/my_progs/c/platformer_chipmunk/include/SDL2/SDL_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 /home/vuvk/my_progs/c/platformer_chipmunk/include/SDL2/SDL_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 /home/vuvk/my_progs/c/platformer_chipmunk/include/SDL2/SDL_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1476935894 /home/vuvk/my_progs/c/platformer_chipmunk/include/SDL2/SDL_scancode.h
+	"SDL_stdinc.h"
+
+1476935894 /home/vuvk/my_progs/c/platformer_chipmunk/include/SDL2/SDL_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 /home/vuvk/my_progs/c/platformer_chipmunk/include/SDL2/SDL_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 /home/vuvk/my_progs/c/platformer_chipmunk/include/SDL2/SDL_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 /home/vuvk/my_progs/c/platformer_chipmunk/include/SDL2/SDL_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1476935894 /home/vuvk/my_progs/c/platformer_chipmunk/include/SDL2/SDL_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 /home/vuvk/my_progs/c/platformer_chipmunk/include/SDL2/SDL_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 /home/vuvk/my_progs/c/platformer_chipmunk/include/SDL2/SDL_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 /home/vuvk/my_progs/c/platformer_chipmunk/include/SDL2/SDL_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 /home/vuvk/my_progs/c/platformer_chipmunk/include/SDL2/SDL_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 /home/vuvk/my_progs/c/platformer_chipmunk/include/SDL2/SDL_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 /home/vuvk/my_progs/c/platformer_chipmunk/include/SDL2/SDL_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 /home/vuvk/my_progs/c/platformer_chipmunk/include/SDL2/SDL_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 /home/vuvk/my_progs/c/platformer_chipmunk/include/SDL2/SDL_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 /home/vuvk/my_progs/c/platformer_chipmunk/include/SDL2/SDL_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 /home/vuvk/my_progs/c/platformer_chipmunk/include/SDL2/SDL_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 /home/vuvk/my_progs/c/platformer_chipmunk/include/SDL2/SDL_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476935894 /home/vuvk/my_progs/c/platformer_chipmunk/include/SDL2/SDL_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1496390366 /home/vuvk/my_progs/c/platformer_chipmunk/additions.h
+	"defines.h"
+
+1496394890 /home/vuvk/my_progs/c/platformer_chipmunk/defines.h
+	"chipmunk/chipmunk_private.h"
+
+1495786381 /home/vuvk/my_progs/c/platformer_chipmunk/include/chipmunk/chipmunk_private.h
+	"chipmunk/chipmunk.h"
+	"chipmunk/chipmunk_structs.h"
+
+1495786381 /home/vuvk/my_progs/c/platformer_chipmunk/include/chipmunk/chipmunk.h
+	<stdlib.h>
+	<math.h>
+	<malloc.h>
+	<alloca.h>
+	"chipmunk_types.h"
+	"cpVect.h"
+	"cpBB.h"
+	"cpTransform.h"
+	"cpSpatialIndex.h"
+	"cpArbiter.h"
+	"cpBody.h"
+	"cpShape.h"
+	"cpPolyShape.h"
+	"cpConstraint.h"
+	"cpSpace.h"
+
+1496131105 /home/vuvk/my_progs/c/platformer_chipmunk/include/chipmunk/chipmunk_types.h
+	<stdint.h>
+	<float.h>
+	<math.h>
+	"TargetConditionals.h"
+	<CoreGraphics/CGGeometry.h>
+	<CoreGraphics/CGAffineTransform.h>
+	<ApplicationServices/ApplicationServices.h>
+
+1495786382 /home/vuvk/my_progs/c/platformer_chipmunk/include/chipmunk/cpVect.h
+	"chipmunk_types.h"
+
+1495786381 /home/vuvk/my_progs/c/platformer_chipmunk/include/chipmunk/cpBB.h
+	"chipmunk_types.h"
+	"cpVect.h"
+
+1495786382 /home/vuvk/my_progs/c/platformer_chipmunk/include/chipmunk/cpTransform.h
+	"chipmunk_types.h"
+	"cpVect.h"
+	"cpBB.h"
+
+1495786382 /home/vuvk/my_progs/c/platformer_chipmunk/include/chipmunk/cpSpatialIndex.h
+
+1495786381 /home/vuvk/my_progs/c/platformer_chipmunk/include/chipmunk/cpArbiter.h
+
+1495786381 /home/vuvk/my_progs/c/platformer_chipmunk/include/chipmunk/cpBody.h
+
+1495786382 /home/vuvk/my_progs/c/platformer_chipmunk/include/chipmunk/cpShape.h
+
+1495786381 /home/vuvk/my_progs/c/platformer_chipmunk/include/chipmunk/cpPolyShape.h
+
+1495786381 /home/vuvk/my_progs/c/platformer_chipmunk/include/chipmunk/cpConstraint.h
+	"cpPinJoint.h"
+	"cpSlideJoint.h"
+	"cpPivotJoint.h"
+	"cpGrooveJoint.h"
+	"cpDampedSpring.h"
+	"cpDampedRotarySpring.h"
+	"cpRotaryLimitJoint.h"
+	"cpRatchetJoint.h"
+	"cpGearJoint.h"
+	"cpSimpleMotor.h"
+
+1495786381 /home/vuvk/my_progs/c/platformer_chipmunk/include/chipmunk/cpPinJoint.h
+
+1495786382 /home/vuvk/my_progs/c/platformer_chipmunk/include/chipmunk/cpSlideJoint.h
+
+1495786381 /home/vuvk/my_progs/c/platformer_chipmunk/include/chipmunk/cpPivotJoint.h
+
+1495786381 /home/vuvk/my_progs/c/platformer_chipmunk/include/chipmunk/cpGrooveJoint.h
+
+1495786381 /home/vuvk/my_progs/c/platformer_chipmunk/include/chipmunk/cpDampedSpring.h
+
+1495786381 /home/vuvk/my_progs/c/platformer_chipmunk/include/chipmunk/cpDampedRotarySpring.h
+
+1495786381 /home/vuvk/my_progs/c/platformer_chipmunk/include/chipmunk/cpRotaryLimitJoint.h
+
+1495786381 /home/vuvk/my_progs/c/platformer_chipmunk/include/chipmunk/cpRatchetJoint.h
+
+1495786381 /home/vuvk/my_progs/c/platformer_chipmunk/include/chipmunk/cpGearJoint.h
+
+1495786382 /home/vuvk/my_progs/c/platformer_chipmunk/include/chipmunk/cpSimpleMotor.h
+
+1495786382 /home/vuvk/my_progs/c/platformer_chipmunk/include/chipmunk/cpSpace.h
+
+1495786381 /home/vuvk/my_progs/c/platformer_chipmunk/include/chipmunk/chipmunk_structs.h
+	"chipmunk/chipmunk.h"
+
+1496314056 source:/home/vuvk/my_progs/c/platformer_chipmunk/creature.c
+	"defines.h"
+	"additions.h"
+	"engine.h"
+	"world.h"
+	"creature.h"
+	"player.h"
+
+1496161531 /home/vuvk/my_progs/c/platformer_chipmunk/engine.h
+	<stdio.h>
+	<stdlib.h>
+	"SDL2/SDL.h"
+	"SDL2/SDL_mixer.h"
+	"SDL2/SDL_image.h"
+	"chipmunk/chipmunk_private.h"
+	"defines.h"
+
+1451801791 /home/vuvk/my_progs/c/platformer_chipmunk/include/SDL2/SDL_mixer.h
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451800374 /home/vuvk/my_progs/c/platformer_chipmunk/include/SDL2/SDL_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1496394400 /home/vuvk/my_progs/c/platformer_chipmunk/world.h
+	"chipmunk/chipmunk_private.h"
+
+1496312688 /home/vuvk/my_progs/c/platformer_chipmunk/creature.h
+	"SDL2/SDL.h"
+	"chipmunk/chipmunk_private.h"
+	"list.h"
+	"physBody.h"
+
+1496057705 /home/vuvk/my_progs/c/platformer_chipmunk/list.h
+	"defines.h"
+
+1496294974 /home/vuvk/my_progs/c/platformer_chipmunk/physBody.h
+	"chipmunk/chipmunk_private.h"
+	"defines.h"
+
+1496310742 /home/vuvk/my_progs/c/platformer_chipmunk/player.h
+	"creature.h"
+
+1496393348 source:/home/vuvk/my_progs/c/platformer_chipmunk/engine.c
+	<time.h>
+	"engine.h"
+	"list.h"
+	"sound.h"
+	"texture.h"
+	"tileObject.h"
+	"level.h"
+	"physBody.h"
+	"creature.h"
+	"player.h"
+
+1496057722 /home/vuvk/my_progs/c/platformer_chipmunk/sound.h
+	"SDL2/SDL_mixer.h"
+	"defines.h"
+
+1496393010 /home/vuvk/my_progs/c/platformer_chipmunk/texture.h
+	"SDL2/SDL.h"
+	"defines.h"
+	"engine.h"
+
+1496402409 /home/vuvk/my_progs/c/platformer_chipmunk/tileObject.h
+	"SDL2/SDL.h"
+	"SDL2/SDL_image.h"
+	"chipmunk/chipmunk_private.h"
+	"defines.h"
+	"list.h"
+
+1496402559 /home/vuvk/my_progs/c/platformer_chipmunk/level.h
+	"chipmunk/chipmunk_private.h"
+	"defines.h"
+	"list.h"
+	"tileObject.h"
+
+1496402591 source:/home/vuvk/my_progs/c/platformer_chipmunk/level.c
+	<stdlib.h>
+	<string.h>
+	"libxml/parser.h"
+	"additions.h"
+	"texture.h"
+	"engine.h"
+	"world.h"
+	"level.h"
+	"physBody.h"
+	"tileObject.h"
+	"creature.h"
+	"player.h"
+
+1494999695 /home/vuvk/my_progs/c/platformer_chipmunk/include/libxml/parser.h
+	<stdarg.h>
+	<libxml/xmlversion.h>
+	<libxml/tree.h>
+	<libxml/dict.h>
+	<libxml/hash.h>
+	<libxml/valid.h>
+	<libxml/entities.h>
+	<libxml/xmlerror.h>
+	<libxml/xmlstring.h>
+	<libxml/encoding.h>
+	<libxml/xmlIO.h>
+	<libxml/globals.h>
+
+1494999696 /home/vuvk/my_progs/c/platformer_chipmunk/include/libxml/xmlversion.h
+	<libxml/xmlexports.h>
+	<ansidecl.h>
+
+1494999696 /home/vuvk/my_progs/c/platformer_chipmunk/include/libxml/xmlexports.h
+
+1494999696 /home/vuvk/my_progs/c/platformer_chipmunk/include/libxml/tree.h
+	<stdio.h>
+	<libxml/xmlversion.h>
+	<libxml/xmlstring.h>
+	<libxml/xmlregexp.h>
+	<libxml/xmlmemory.h>
+
+1494999696 /home/vuvk/my_progs/c/platformer_chipmunk/include/libxml/xmlstring.h
+	<stdarg.h>
+	<libxml/xmlversion.h>
+
+1494999696 /home/vuvk/my_progs/c/platformer_chipmunk/include/libxml/xmlregexp.h
+	<libxml/xmlversion.h>
+	<libxml/tree.h>
+	<libxml/dict.h>
+
+1494999695 /home/vuvk/my_progs/c/platformer_chipmunk/include/libxml/dict.h
+	<libxml/xmlversion.h>
+	<libxml/tree.h>
+
+1494999696 /home/vuvk/my_progs/c/platformer_chipmunk/include/libxml/xmlmemory.h
+	<stdio.h>
+	<libxml/xmlversion.h>
+	<libxml/threads.h>
+	<libxml/globals.h>
+
+1494999695 /home/vuvk/my_progs/c/platformer_chipmunk/include/libxml/threads.h
+	<libxml/xmlversion.h>
+	<libxml/globals.h>
+
+1494999695 /home/vuvk/my_progs/c/platformer_chipmunk/include/libxml/globals.h
+	<libxml/xmlversion.h>
+	<libxml/parser.h>
+	<libxml/xmlerror.h>
+	<libxml/SAX.h>
+	<libxml/SAX2.h>
+	<libxml/xmlmemory.h>
+	<libxml/threads.h>
+
+1494999696 /home/vuvk/my_progs/c/platformer_chipmunk/include/libxml/xmlerror.h
+	<libxml/parser.h>
+
+1494999695 /home/vuvk/my_progs/c/platformer_chipmunk/include/libxml/SAX.h
+	<stdio.h>
+	<stdlib.h>
+	<libxml/xmlversion.h>
+	<libxml/parser.h>
+	<libxml/xlink.h>
+
+1494999696 /home/vuvk/my_progs/c/platformer_chipmunk/include/libxml/xlink.h
+	<libxml/xmlversion.h>
+	<libxml/tree.h>
+
+1494999695 /home/vuvk/my_progs/c/platformer_chipmunk/include/libxml/SAX2.h
+	<stdio.h>
+	<stdlib.h>
+	<libxml/xmlversion.h>
+	<libxml/parser.h>
+	<libxml/xlink.h>
+
+1494999695 /home/vuvk/my_progs/c/platformer_chipmunk/include/libxml/hash.h
+	<libxml/xmlversion.h>
+	<libxml/parser.h>
+	<libxml/dict.h>
+
+1494999696 /home/vuvk/my_progs/c/platformer_chipmunk/include/libxml/valid.h
+	<libxml/xmlversion.h>
+	<libxml/xmlerror.h>
+	<libxml/tree.h>
+	<libxml/list.h>
+	<libxml/xmlautomata.h>
+	<libxml/xmlregexp.h>
+
+1494999695 /home/vuvk/my_progs/c/platformer_chipmunk/include/libxml/list.h
+	<libxml/xmlversion.h>
+
+1494999696 /home/vuvk/my_progs/c/platformer_chipmunk/include/libxml/xmlautomata.h
+	<libxml/xmlversion.h>
+	<libxml/tree.h>
+	<libxml/xmlregexp.h>
+
+1494999695 /home/vuvk/my_progs/c/platformer_chipmunk/include/libxml/entities.h
+	<libxml/xmlversion.h>
+	<libxml/tree.h>
+
+1494999695 /home/vuvk/my_progs/c/platformer_chipmunk/include/libxml/encoding.h
+	<libxml/xmlversion.h>
+	<iconv.h>
+	<unicode/ucnv.h>
+	<libxml/tree.h>
+
+1495007287 /home/vuvk/my_progs/c/platformer_chipmunk/include/iconv.h
+	"iconv.h"
+	<stddef.h>
+	<errno.h>
+
+1494999696 /home/vuvk/my_progs/c/platformer_chipmunk/include/libxml/xmlIO.h
+	<stdio.h>
+	<libxml/xmlversion.h>
+	<libxml/globals.h>
+	<libxml/tree.h>
+	<libxml/parser.h>
+	<libxml/encoding.h>
+
+1495602948 source:/home/vuvk/my_progs/c/platformer_chipmunk/list.c
+	<stdio.h>
+	<stdlib.h>
+	"list.h"
+
+1496402441 source:/home/vuvk/my_progs/c/platformer_chipmunk/main.c
+	<stdio.h>
+	<stdlib.h>
+	"SDL2/SDL.h"
+	"chipmunk/chipmunk_private.h"
+	"defines.h"
+	"engine.h"
+	"world.h"
+	"level.h"
+	"texture.h"
+	"tileObject.h"
+	"creature.h"
+	"player.h"
+
+1496296182 source:/home/vuvk/my_progs/c/platformer_chipmunk/physBody.c
+	"physBody.h"
+
+1496312657 source:/home/vuvk/my_progs/c/platformer_chipmunk/player.c
+	<stdlib.h>
+	"chipmunk/chipmunk_private.h"
+	"additions.h"
+	"defines.h"
+	"texture.h"
+	"sound.h"
+	"level.h"
+	"physBody.h"
+	"player.h"
+
+1495117472 source:/home/vuvk/my_progs/c/platformer_chipmunk/sound.c
+	<stdio.h>
+	"sound.h"
+	"additions.h"
+
+1496394015 source:/home/vuvk/my_progs/c/platformer_chipmunk/texture.c
+	<stdio.h>
+	"additions.h"
+	"texture.h"
+
+1496402409 source:/home/vuvk/my_progs/c/platformer_chipmunk/tileObject.c
+	"additions.h"
+	"engine.h"
+	"texture.h"
+	"tileObject.h"
+	"level.h"
+
+1496293047 source:/home/vuvk/my_progs/c/platformer_chipmunk/world.c
+	"defines.h"
+	"world.h"
+	"physBody.h"
+
